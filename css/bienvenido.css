@@ -1,0 +1,294 @@
+body{
+  background-color: black;
+  overflow: hidden;
+  position: fixed;
+}
+
+.difuminado{
+  animation-name: entra;
+  animation-duration: 4.3s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes entra {
+  0%{
+      opacity: 1;
+  }
+  100%{
+      opacity: 0; 
+  }
+}
+
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+.bodyy{
+  display: block;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#titulo2{
+  position: absolute;
+  bottom: 80vh;
+  left: 3vw;
+  z-index: 40;
+}
+
+#texto2{
+  position: absolute;
+  bottom: 25vh;
+  left: 3vw;
+  z-index: 40;
+}
+
+#texto3{
+  position: absolute;
+  bottom: 10vh;
+  left: 3vw;
+  z-index: 40;
+}
+
+main 
+{
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 2px;
+  display: block;
+  height: 100vh;
+  animation-name: entrada;
+  animation-duration: 8s;
+  animation-fill-mode: both;
+}
+@keyframes entrada {
+  0%{
+      opacity: 0;
+  }
+  100%{
+      opacity: 1; 
+  }
+}
+
+
+section 
+{
+  transform-style: preserve-3d;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #655b5b;
+}
+
+.no-parallax 
+{
+  
+ background:linear-gradient(rgba(84, 33, 33, 0.5), rgba(84, 33, 33, 0.5)), url("../imagenesVideos/casaabajo.jpg");
+  z-index: 10;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.parallax 
+{
+  width: 100vw ;
+  height: 123vh;
+}
+
+.parallax::after 
+{
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 10vw;
+  bottom: 0;
+  left: 0;
+  transform: translateZ(-1px) scale(1.5);
+  background-size: 100vw;
+  z-index: -1;
+}
+
+.bg::after 
+{
+  background: linear-gradient(rgba(84, 33, 33, 0.5), rgba(84, 33, 33, 0.5)), url("../imagenesVideos/casalejos-split.jpg");
+  background-repeat: no-repeat;
+  width: 100vw;
+}
+
+@media screen and (min-width: 768px) 
+{
+  
+  .parallax 
+  {
+    font-size: 4rem;
+  }
+}
+.container{
+  height: 100vh;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  perspective: 500px;
+  position: relative;
+}
+
+.Gryffindor{
+  width: 30vw;
+  height: 50vh;
+  background-image: url("..//imagenesVideos/EscudoGryffindor.png");
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 10vh;
+  left: 22vw;
+  filter: drop-shadow(0px 27px 50px red);
+  animation: rotar 20s linear infinite; 
+  z-index: 20;
+}
+.Hufflepuff{
+  width: 30vw;
+  height: 50vh;
+  background-image: url("..//imagenesVideos/escudoHufflepuff.png");
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 10vh;
+  left: 22vw;
+  filter: drop-shadow(0px 27px 50px red);
+  animation: rotar 20s linear infinite; 
+  z-index: 20;
+}
+.Ravenclaw{
+  width: 30vw;
+  height: 50vh;
+  background-image: url("..//imagenesVideos/escudo_Ravenclaw.png");
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 10vh;
+  left: 22vw;
+  filter: drop-shadow(0px 27px 50px red);
+  animation: rotar 20s linear infinite; 
+  z-index: 20; 
+}
+.Slytherin{
+  width: 30vw;
+  height: 50vh;
+  background-image: url("..//imagenesVideos/escudo_Slytherin.png");
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 10vh;
+  left: 22vw;
+  filter: drop-shadow(0px 27px 50px red);
+  animation: rotar 20s linear infinite; 
+  z-index: 20;   
+}
+@keyframes rotar{
+  from{
+      transform: rotateY(0deg);
+  }
+  to{
+      transform: rotateY(-720deg);
+  }
+}
+
+.abajo{
+  width: 30rem;
+  height: 20rem;
+  position: absolute;
+  bottom: 7vh;
+  left: 2vw;
+  background: #242424;
+  border-radius: 50%;
+  box-shadow: inset 0px 0px 10px 10px #11111136;
+  transform: rotateX(95deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: blur(30px);
+}
+
+#CONTENEDORABAJO{
+  position: relative;
+  top: 15vh;
+  width: 30rem;
+  height: 20rem;  
+}
+
+#CONTENEDORABAJO::before{
+  content: "";
+  width: 16rem;
+  height: 16rem;
+  position: absolute;
+  bottom: 11vh;
+  left: 7vw;
+  background: red;
+  border-radius: 50%;
+  transform: rotateX(85deg);
+  box-shadow: inset 0px 0px 10px 10px #11111136;
+  filter: blur(30px);
+}
+ 
+.invisible{
+  display: none;
+}
+
+div{
+  height: 100vh;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+
+span{
+  position: relative;
+  top: 50vh;
+  left: -5vw;
+  width: 10px;
+  height: 40px;
+  background:white;
+  border-radius:5px;
+  margin: 6px;
+  animation: move 1.1s infinite ease-in-out;
+}
+
+span:nth-of-type(1){
+  transform: rotate(-45deg);
+}
+
+span:nth-of-type(2){
+  transform: rotate(45deg);
+}
+
+@keyframes move{
+  0%{margin-top:0;}
+  50%{margin-top:100px;}
+  100%{margin-top:0;}
+}
+
+#table{
+  position: relative;
+  right: 25vw;
+  height: 30vh;
+  font-size: 2rem;
+  width: 35vw;
+}
+#tabla1{--bs-table-bg: transparent;}
+
+.btn{
+  position:relative;
+  top: 45Vh;
+  right: 14vw;
+  width: 10vw;
+  height: 5vh;
+}
+

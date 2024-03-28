@@ -1,0 +1,90 @@
+body{
+    
+    background-color: black;
+}
+#imagen{
+    position: relative;
+    top: 47.5vh;
+    left: 47.5vw;
+    height: 2vh;
+    width: 2vw;
+}
+
+
+.agrandar{
+    animation-name: entra;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes entra {
+    0%{
+        position: relative;
+        top: 47.5vh;
+        left: 47.5vw;
+        height: 2vh;
+        width: 2vw;
+        opacity: 0.2;
+    }
+    95%{
+        opacity: 0.5;
+    }
+    100%{
+        position: relative;
+        top: 0vh;
+        left: 0vw; 
+        height: 95vh;
+        width: 98vw;
+        opacity: 1;
+    }
+  }
+
+  .animalt{
+    position: absolute;
+    top: 20vh;
+    left:  5vw;
+    z-index: 10;
+    opacity: 0;
+  }
+
+  .animalfelicitat{
+    position: absolute;
+    top: 70vh;
+    left:  5vw;
+    z-index: 10;
+    opacity: 0;
+}
+
+.entrar{
+    animation-name: entrar;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes entrar {
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+  }
+
+  .salida{
+    animation-name: salida;
+    animation-duration: 17s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes salida {
+    0%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+  }

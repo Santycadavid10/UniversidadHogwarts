@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+    position: fixed;
+
+}
+#gifanimales{
+    height: 98vh;
+    width: 98vw;
+    z-index: 1;
+    animation-name: entra;
+    animation-duration: 13s;
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes entra {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0; 
+    }
+  }
+
+#letra{
+    position: relative;
+    bottom: 20vh;
+    left: 5vw;
+    z-index: 10;
+}

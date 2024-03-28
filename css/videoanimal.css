@@ -1,0 +1,99 @@
+.difuminado{
+  animation-name: entrada;
+  animation-duration: 17s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes entrada {
+  0%{
+      opacity: 1;
+  }
+  100%{
+      opacity: 0; 
+  }
+}
+
+body{
+    background-color: black;
+    width: 97vw;
+    height: 97vh;
+}
+
+#titulo7{
+    position: absolute;
+    float: left;
+    bottom: 80vh;
+    left: 3vw;
+    z-index: 10;
+}
+#titulo5{
+    position: absolute;
+    float: left;
+    bottom: 60vh;
+    left: 30vw;
+    z-index: 10;
+}
+
+#titulo6{
+    position: absolute;
+    bottom: 5vh;
+    text-align: left;
+    left: 10vw;
+    z-index: 10;
+}
+
+#contedenor{
+    position: absolute;
+    pointer-events: none;
+    display: table;
+}
+#video3{
+    position: relative;
+    width: 99vw;
+    height: 98vh;
+    z-index: 1;  
+    pointer-events: none; 
+    animation-name: entra;
+    animation-duration: 20s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes entra {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0.5; 
+    }
+  }
+#video3::-webkit-media-controls-fullscreen-button,
+#video3::-webkit-media-controls-play-button,
+#video3::-webkit-media-controls-pause-button,
+#video3::-webkit-media-controls-timeline,
+#video3::-webkit-media-controls-current-time-display,
+#video3::-webkit-media-controls-time-remaining-display,
+#video3::-webkit-media-controls-mute-button,
+#video3::-webkit-media-controls-volume-slider,
+#video3::-webkit-media-controls-toggle-closed-captions-button,
+#video3::-webkit-media-controls-closed-captions-button {
+    display: none;
+}
+
+#contitexto{
+    text-align: left;
+}
+
+#gifanimales{
+    position: relative;
+    width: 99vw;
+    height: 98vh;
+    z-index: 1;  
+}
+
+#letra{
+    position: absolute;
+    float: left;
+    bottom: 10vh;
+    left: 3vw;
+    z-index: 10
+}

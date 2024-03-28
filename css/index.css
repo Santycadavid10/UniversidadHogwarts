@@ -1,0 +1,144 @@
+body{
+    background-color: black;
+    width: 97vw;
+    height: 97vh;
+    position: fixed;
+}
+
+#titulo1{
+    position: absolute;
+    float: left;
+    bottom: 65vh;
+    left: 10vw;
+    z-index: 10;
+}
+
+#contedenor{
+    position: absolute;
+    pointer-events: none;
+    display: table;
+}
+#video1{
+    position: relative;
+    width: 99vw;
+    height: 98vh;
+    z-index: 1;  
+    pointer-events: none; 
+}
+#video1::-webkit-media-controls-fullscreen-button,
+#video1::-webkit-media-controls-play-button,
+#video1::-webkit-media-controls-pause-button,
+#video1::-webkit-media-controls-timeline,
+#video1::-webkit-media-controls-current-time-display,
+#video1::-webkit-media-controls-time-remaining-display,
+#video1::-webkit-media-controls-mute-button,
+#video1::-webkit-media-controls-volume-slider,
+#video1::-webkit-media-controls-toggle-closed-captions-button,
+#video1::-webkit-media-controls-closed-captions-button {
+    display: none;
+}
+
+.registrate{
+    color: null;
+    position: absolute;
+    bottom: 55vh;
+    left: 5vw;
+    z-index: 30;
+}
+.form-control{
+    opacity: 0.3;
+}
+.contenedordatos{
+    position: absolute;
+    bottom: 40vh;
+    left: 2vw;
+    z-index: 30;
+}
+.input-group-text{
+    width: 10vw;
+    background-color: transparent;
+    border-color: transparent;
+}
+.form-select{
+    text-align: start;
+    width: 100vw;
+} 
+.input-grou{
+    display: flex;
+}
+
+.contenedorenombre{
+    position: relative;
+}
+
+.contenedoredad{
+    position: relative;
+    top: 2vh;
+}
+
+.contenedorfamilia{
+    position: relative;
+    top: 4vh;
+}
+
+.contenedorvalor{
+    position: absolute;
+    left: 3vw;
+    top: 67vh;
+    width: 25vw;
+    opacity: 0.5;
+    z-index: 30;
+}
+
+.contenedorlinaje{
+    position: absolute;
+    left: 3vw;
+    top: 73vh;
+    width: 25vw;
+    opacity: 0.5;
+    z-index: 30;
+}
+
+.Bontonparticipar{
+    position: absolute;
+    left: 41vw;
+    top: 90vh;
+    width: 14vw;
+    height: 7vh;
+    opacity: 0.5;
+    border-color: aliceblue;
+    z-index: 30;
+}
+
+.difuminado{
+    animation-name: entrada;
+    animation-duration: 4.3s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes entrada {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0; 
+    }
+}
+#nopasa{
+    position: relative;
+    bottom: 30vh;
+    left: 40vw;
+    z-index: 50;
+}
+.invisible{
+    display: none;
+}
+
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}   /* anterior para que el input edad number no tenga flechas de aunmentodisminucion */
+
+

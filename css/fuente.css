@@ -1,0 +1,215 @@
+@font-face {
+    font-family: Sectar;
+    src: url(../sectar/Sectar.otf);
+}
+
+
+#titulo1{
+    font-family: Sectar;
+    font-size: 2.9rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#titulo2{
+    font-family: Sectar;
+    font-size: 5rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+#titulo7{
+    font-family: Sectar;
+    font-size: 3.5rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#titulo5{
+    font-family: Sectar;
+    font-size: 5rem;
+    color: rgb(123, 64, 64);
+    text-align: center;
+}
+
+#titulo6{
+    font-family: Sectar;
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#texto1{
+    font-family: Sectar;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.registrate{
+    font-family: Sectar;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+}
+.input-group-text{
+    font-family: Sectar;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255); 
+}
+
+.contenedorvalor{
+    font-family: Sectar;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+ 
+.contenedorlinaje{
+    font-family: Sectar;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+.contenedorinputnombre{
+    font-family: Sectar;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+.contenedorinputedad{
+    font-family: Sectar;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+.contenedorinputfamilia{
+    font-family: Sectar;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+.Bontonparticipar{
+    font-family: Sectar;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+
+#texto2{
+    font-family: Sectar;
+    font-size: 3.5rem;
+    color: rgb(255 255 255);    
+    text-align: center;
+}
+
+#texto3{
+    font-family: Sectar;
+    font-size: 2.2rem;
+    color: rgb(255 255 255);
+    text-align: center;
+}
+
+#texto4{
+    font-family: Sectar;
+    font-size: 3rem; 
+    color:  rgb(216, 92, 92);  
+    text-align: center;
+  }
+
+#letra{
+    font-family: Sectar;
+    font-size: 2.9rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+
+  #gano{
+    font-family: Sectar;
+    font-size: 3.5rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+#perdio{
+    font-family: Sectar;
+    font-size: 3.5rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.animal{
+    font-size: 4rem;
+    color: rgb(255, 255, 255);
+    font-family: Sectar;
+    opacity: 0;
+}
+
+.animalfelicita{
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+    font-family: Sectar;
+    opacity: 0;
+}
+
+#nopasa{
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    font-family: Sectar;
+}
+
+.invisible{
+    display: none;
+}
+
+#textotitulo{
+    font-family: Sectar;
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+}
+#textotitulofinal{
+    font-family: Sectar;
+    font-size: 4rem;
+    color: rgb(255, 255, 255);
+}
+#textonombre{
+    font-family: Sectar;
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+}
+
+
+#textolinaje{
+    font-family: Sectar;
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+}
+
+#textoedad{
+    font-family: Sectar;
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+}
+
+#textocasa{
+    font-family: Sectar;
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+}
+
+#textoanimal{
+    font-family: Sectar;
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255);  
+}
+
+#boton{
+    font-family: Sectar;
+    font-size: 3rem;
+    color: rgb(255, 255, 255); 
+}
+
+
+
+
+
+
